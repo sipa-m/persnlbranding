@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Branding - S</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       
+        body {
+            font-family: Playfair Display;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+       
+        header {
+            background-color: #3d85c6;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+       
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: #0b5394;
+            color: white;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        .profile-img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+       
+        .about {
+            padding: 40px 20px;
+            text-align: center;
+            background-color:#3d85c6;
+        }
+
+        .about h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color:#07345d;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+       
+        .portfolio {
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .portfolio h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .portfolio-grid {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .portfolio-item {
+            width: 30%;
+        }
+
+       
+    .portfolio-item img {
+    width: 100%;          
+    max-width: 250px;     
+    height: auto;        
+    border-radius: 10px;  
+    margin-bottom: 10px;  
+}
+
+        }
+
+       
+        .testimonials {
+            background-color: #0b5394;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .testimonials blockquote {
+            font-size: 1.2rem;
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+
+       
+        .contact {
+            padding: 40px 20px;
+            background-color: #f4f4f4;
+        }
+
+        .contact h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact label {
+            margin: 10px 0 5px;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .contact button {
+            background-color: #07345d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        
+        footer {
+            background-color:#07345d;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer ul {
+            list-style: none;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#Home">Beranda</a></li>
+                <li><a href="#About">Tentang Saya</a></li>
+                <li><a href="#portfolio">Karya</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Selamat datang di website sederhana saya!</h1>
+            <p>Mengabadikan momen, melukis dan menciptakan cerita.</p>
+        </div>
+    </section>
+
+   
+    <section id="about" class="about">
+        <h2>Tentang Saya</h2>
+        <p>Sebagai seorang mahasiswi, saya sangat menyukai fotografi dan menulis cerita. Saya percaya bahwa setiap momen memiliki keunikan tersendiri, dan dengan memotret serta menulis, saya dapat mengabadikan kenangan yang tak akan terulang kembali, menjadikannya hidup selamanya dalam bentuk cerita dan gambar.</p>
+        <a href="#contact" class="btn">Mari berbincang lebih lanjut! Kirim pesan kepada saya.</a>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h2>Beberapa Karya</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="WhatsApp Image 2025-04-05 at 09.44.06.jpeg" alt="Project 1">
+                <p>"Pohon menghadap langit yang luas, awan bergerak secara perlahan, membentuk kisah-kisah yang mengalir bersama semilir angin. Dalam kesunyian itu, alam bercerita, dan aku mendengarkan"</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="WhatsApp Image 2025-04-05 at 09.40.42.jpeg" alt="Project 2">
+                <p>"Samudra yang luas ini bagaikan cermin bagi jiwa yang tengah mencari ketenangan, tak terhingga dan penuh dengan misteri."</p>
+					
+            </div>
+            <div class="portfolio-item">
+                <img src="WhatsApp Image 2025-04-05 at 09.39.35.jpeg" alt="Project 3">
+                <p>"Akasa menyelimuti dunia ini dengan kedamaian, memberikan ruang bagi setiap harapan untuk tumbuh dan meraih impian."</p>
+            </div>
+        </div>
+    </section>
+
+   
+    <section id="testimonials" class="testimonials">
+        <h2>Kutipan</h2>
+        <blockquote>
+            <p>"Setiap karya adalah perjalanan. Tidak hanya tentang hasil, tetapi tentang bagaimana kita bertumbuh melalui setiap prosesnya."</p>
+            <footer>- S</footer>
+        </blockquote>
+    </section>
+
+  
+    <section id="contact" class="contact">
+        <h2>Mari berbincang!</h2>
+        <form action="#" method="POST">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+
+   
+    <footer>
+        <p>Follow me on:</p>
+        <ul class="socials">
+            <li><a href="https://www.linkedin.com/in/shillva-mardiana-1b27b7280/">
+				LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/svmrdraa/">Instagram</a></li>
+            <li><a href="https://www.tiktok.com/@vagabut_?lang=id-ID">Tiktok</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
