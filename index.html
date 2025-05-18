@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personal Branding - S</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-primary py-3">
+        <nav>
+            <ul class="d-flex justify-content-center list-unstyled m-0">
+                <li class="mx-3"><a class="text-white text-decoration-none fs-5" href="#home">Beranda</a></li>
+                <li class="mx-3"><a class="text-white text-decoration-none fs-5" href="#about">Tentang Saya</a></li>
+                <li class="mx-3"><a class="text-white text-decoration-none fs-5" href="#portfolio">Karya</a></li>
+                <li class="mx-3"><a class="text-white text-decoration-none fs-5" href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero d-flex flex-column justify-content-center align-items-center text-white text-center" style="height: 300px; background-color: #0b5394;">
+        <h1>Halo, Selamat datang di website sederhana saya!</h1>
+        <p>Mengabadikan momen, melukis dan menciptakan cerita.</p>
+    </section>
+
+    <section id="about" class="about text-center text-white py-5" style="background-color: #3d85c6;">
+        <div class="container">
+            <h2 class="mb-4">Tentang Saya</h2>
+            <p class="fs-5 mb-4">Sebagai seorang mahasiswi, saya sangat menyukai fotografi dan menulis cerita. Saya percaya bahwa setiap momen memiliki keunikan tersendiri, dan dengan memotret serta menulis, saya dapat mengabadikan kenangan yang tak akan terulang kembali, menjadikannya hidup selamanya dalam bentuk cerita dan gambar.</p>
+            <a href="#contact" class="btn" style="background-color: #07345d; color: white;">Mari berbincang lebih lanjut! Kirim pesan kepada saya.</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio text-center py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Beberapa Karya</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <img src="WhatsApp Image 2025-04-05 at 09.44.06.jpeg" alt="Project 1" class="img-fluid rounded mb-3">
+                    <p>"Pohon menghadap langit yang luas, awan bergerak secara perlahan, membentuk kisah-kisah yang mengalir bersama semilir angin. Dalam kesunyian itu, alam bercerita, dan aku mendengarkan"</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="WhatsApp Image 2025-04-05 at 09.40.42.jpeg" alt="Project 2" class="img-fluid rounded mb-3">
+                    <p>"Samudra yang luas ini bagaikan cermin bagi jiwa yang tengah mencari ketenangan, tak terhingga dan penuh dengan misteri."</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="WhatsApp Image 2025-04-05 at 09.39.35.jpeg" alt="Project 3" class="img-fluid rounded mb-3">
+                    <p>"Akasa menyelimuti dunia ini dengan kedamaian, memberikan ruang bagi setiap harapan untuk tumbuh dan meraih impian."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials text-white py-5" style="background-color: #0b5394;">
+        <div class="container text-center">
+            <h2 class="mb-4">Kutipan</h2>
+            <blockquote class="blockquote fs-5 fst-italic">
+                <p>"Setiap karya adalah perjalanan. Tidak hanya tentang hasil, tetapi tentang bagaimana kita bertumbuh melalui setiap prosesnya."</p>
+                <footer class="blockquote-footer text-white mt-2">S</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg border-0 rounded-4 p-4">
+                    <div class="card-body">
+                        <h2 class="text-center mb-4 text-primary">💌 Mari Berbincang!</h2>
+                        <p class="text-center text-muted mb-4">Saya senang mendengar cerita, berdiskusi ide, atau menjalin kolaborasi. Isi form di bawah ini dan mari mulai percakapan yang seru!</p>
+                        <form action="#" method="POST">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Nama</label>
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Nama lengkap Anda" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Alamat email aktif" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Pesan</label>
+                                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary btn-lg rounded-pill">Kirim Pesan 📩</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-2">Follow me on:</p>
+        <ul class="list-inline">
+            <li class="list-inline-item mx-2"><a class="text-white text-decoration-none" href="https://www.linkedin.com/in/shillva-mardiana-1b27b7280/">LinkedIn</a></li>
+            <li class="list-inline-item mx-2"><a class="text-white text-decoration-none" href="https://www.instagram.com/svmrdraa/">Instagram</a></li>
+            <li class="list-inline-item mx-2"><a class="text-white text-decoration-none" href="https://www.tiktok.com/@vagabut_?lang=id-ID">Tiktok</a></li>
+        </ul>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
